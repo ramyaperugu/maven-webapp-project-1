@@ -1,0 +1,642 @@
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.105
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 2 2020 12:25:26 UTC
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.105.0
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1.66-93.164.amzn2023.x86_64
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-17-amazon-corretto.x86_64
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           17.0.10+7-LTS
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Amazon.com Inc.
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/ec2-user/sample.webapp/apache-tomcat-7.0.105
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/ec2-user/sample.webapp/apache-tomcat-7.0.105
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/conf/logging.properties
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/ec2-user/sample.webapp/apache-tomcat-7.0.105
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/ec2-user/sample.webapp/apache-tomcat-7.0.105
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/temp
+Jan 20, 2024 5:59:03 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+Jan 20, 2024 5:59:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1276 ms
+Jan 20, 2024 5:59:03 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jan 20, 2024 5:59:03 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.105
+Jan 20, 2024 5:59:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/ROOT]
+Jan 20, 2024 5:59:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/ROOT] has finished in [654] ms
+Jan 20, 2024 5:59:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/docs]
+Jan 20, 2024 5:59:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/docs] has finished in [107] ms
+Jan 20, 2024 5:59:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/examples]
+Jan 20, 2024 5:59:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/examples] has finished in [418] ms
+Jan 20, 2024 5:59:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/host-manager]
+Jan 20, 2024 5:59:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/host-manager] has finished in [94] ms
+Jan 20, 2024 5:59:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/manager]
+Jan 20, 2024 5:59:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/manager] has finished in [91] ms
+Jan 20, 2024 5:59:04 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jan 20, 2024 5:59:04 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1520 ms
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.105
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 2 2020 12:25:26 UTC
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.105.0
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1.66-93.164.amzn2023.x86_64
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-17-amazon-corretto.x86_64
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           17.0.10+7-LTS
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Amazon.com Inc.
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/ec2-user/sample.webapp/apache-tomcat-7.0.105
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/ec2-user/sample.webapp/apache-tomcat-7.0.105
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/conf/logging.properties
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/ec2-user/sample.webapp/apache-tomcat-7.0.105
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/ec2-user/sample.webapp/apache-tomcat-7.0.105
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/temp
+Jan 20, 2024 6:08:28 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+Jan 20, 2024 6:08:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jan 20, 2024 6:08:28 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:414)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1030)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.Net.bind(Net.java:544)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:218)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:401)
+	... 17 more
+
+Jan 20, 2024 6:08:28 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1032)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:826)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Caused by: java.net.BindException: Address already in use <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:414)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:750)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:467)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1030)
+	... 13 more
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.Net.bind(Net.java:544)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:218)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:401)
+	... 17 more
+
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1257 ms
+Jan 20, 2024 6:08:28 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jan 20, 2024 6:08:28 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.105
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/ROOT]
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/ROOT] has finished in [598] ms
+Jan 20, 2024 6:08:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/docs]
+Jan 20, 2024 6:08:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/docs] has finished in [114] ms
+Jan 20, 2024 6:08:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/examples]
+Jan 20, 2024 6:08:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/examples] has finished in [434] ms
+Jan 20, 2024 6:08:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/host-manager]
+Jan 20, 2024 6:08:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/host-manager] has finished in [97] ms
+Jan 20, 2024 6:08:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/manager]
+Jan 20, 2024 6:08:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/manager] has finished in [95] ms
+Jan 20, 2024 6:08:29 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1471 ms
+Jan 20, 2024 6:08:29 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.Net.bind(Net.java:544)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:428)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:800)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:746)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+
+Jan 20, 2024 6:08:29 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jan 20, 2024 6:08:29 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Jan 20, 2024 6:08:29 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application []
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 6:08:29 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [/examples]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 6:08:29 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [/host-manager]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 6:08:29 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [/manager]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 6:08:29 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [/docs]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 6:08:29 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jan 20, 2024 6:08:29 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jan 20, 2024 6:11:24 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jan 20, 2024 6:11:24 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jan 20, 2024 6:11:24 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Jan 20, 2024 6:11:24 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application []
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 6:11:24 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [/examples]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 6:11:24 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [/host-manager]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 6:11:24 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [/manager]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 6:11:24 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [/docs]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 6:11:24 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jan 20, 2024 6:11:24 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.105
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 2 2020 12:25:26 UTC
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.105.0
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1.66-93.164.amzn2023.x86_64
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-17-amazon-corretto.x86_64
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           17.0.10+7-LTS
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Amazon.com Inc.
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/ec2-user/sample.webapp/apache-tomcat-7.0.105
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/ec2-user/sample.webapp/apache-tomcat-7.0.105
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/conf/logging.properties
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/ec2-user/sample.webapp/apache-tomcat-7.0.105
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/ec2-user/sample.webapp/apache-tomcat-7.0.105
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/temp
+Jan 20, 2024 6:11:58 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+Jan 20, 2024 6:11:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1269 ms
+Jan 20, 2024 6:11:58 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jan 20, 2024 6:11:58 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.105
+Jan 20, 2024 6:11:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/ROOT]
+Jan 20, 2024 6:11:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/ROOT] has finished in [599] ms
+Jan 20, 2024 6:11:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/docs]
+Jan 20, 2024 6:11:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/docs] has finished in [109] ms
+Jan 20, 2024 6:11:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/examples]
+Jan 20, 2024 6:11:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/examples] has finished in [416] ms
+Jan 20, 2024 6:11:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/host-manager]
+Jan 20, 2024 6:11:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/host-manager] has finished in [95] ms
+Jan 20, 2024 6:11:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/manager]
+Jan 20, 2024 6:11:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/home/ec2-user/sample.webapp/apache-tomcat-7.0.105/webapps/manager] has finished in [91] ms
+Jan 20, 2024 6:11:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jan 20, 2024 6:11:59 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1457 ms
+Jan 20, 2024 6:21:31 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol [HTTP/1.10x0aHost:]
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:269)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1108)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 6:31:05 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x010x070x010x000x010x030x030x030x840xdd0xff0xee90x900x1a0xee0xa8p0xec0xf10xe70x120xb70xb40x9f0xc4l0xab0x080x07tu0x96K0x00*0xc3&aY]. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:140)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1108)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 7:01:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jan 20, 2024 7:01:49 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Jan 20, 2024 7:01:49 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application []
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 7:01:49 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [/examples]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 7:01:49 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [/host-manager]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 7:01:49 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [/manager]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 7:01:49 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: Failed to clear soft references from ObjectStreamClass$Caches for web application [/docs]
+java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:3073)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2290)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2183)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:690)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5910)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Jan 20, 2024 7:01:49 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jan 20, 2024 7:01:49 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
